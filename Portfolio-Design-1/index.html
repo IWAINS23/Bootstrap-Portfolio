@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,94 @@
     </title>
 
     <!-- Bootstrap Core Css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <!-- Custom style for Portfolio Design 1 -->
     <link rel="stylesheet" href="./css/style.css">
 
 
 </head>
+
 <body>
     <Section>
         <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Welcome Section: Jumbotron -->
+        <header class="jumbotron jumbotron-fluid bg-secondary">
+            <div class="container-fluid py-5">
+                <div class="col-lg-11 mx-auto text-white">
+                    <h1 class="display-4 fw-bold">Welcome to my Portfolio</h1>
+                    <p class="col-md-8 fs-4">Nice to have you pop by! Please take a look around my site and find all of
+                        the projects that I have been working on.</p>
+                    <button class="btn btn-primary btn-lg" type="button">Call to action</button>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Work Section -->
+
+        <!-- My Projects -->
+            <section class="my-work text-center bg-light" id="features">
+                <div class="container">
+                  <h2 class="my-4">My Work</h2>
+                  <div class="row justify-content-around mt-8">
+                    <div class="col-lg-4">
+                      <div class="work-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="./Images/Web design.svg" alt="">
+                        <h5>Web Design</h5>
+                        <p class="fw-light mb-0">"Web design is a portfolio of all of my Figma mockups for different clients, if you like any of my designs feel free to contact me using the 'About me section' on the Nav bar"</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="work-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="./Images/The Multiverse.svg" alt="">
+                        <h5>The Multiverse</h5>
+                        <p class="fw-light mb-0">"Ever get tired of trying to find where your favourite shows are located, The Multiverse shows you each website that has your favorite shows on it, it even allows you to send it a screenshot of a scence from any show, and our top of the range AI technology will give you the name of the show and where it is available to watch!"</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="work-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="./Images/Domain Diplomacy.svg" alt="">
+                        <h5>Domain Diplomacy</h5>
+                        <p class="fw-light mb-0">"We created a website, which shows the top trending domains and why they so sought after. The site gives users the closest available domain to the top trending domains"</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+    </section>
+
+
     </Section>
 </body>
+
 </html>
